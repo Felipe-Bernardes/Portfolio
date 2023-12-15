@@ -1,12 +1,15 @@
-import React from 'react';
-import { Container } from './SectionGlobalCss';
+import React, { Fragment } from 'react';
+import { Container, GlobalStyle } from './SectionGlobalCss';
+import Menu from '../Menu/Menu';
 
 const GlobalSection = () => {
     return(
-        <Container>
-            
-
-        </Container>
+        <Fragment>
+            <GlobalStyle />
+            <Container>
+                <Menu/>
+            </Container>
+        </Fragment>
     )
 }
 
