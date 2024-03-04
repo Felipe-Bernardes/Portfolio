@@ -1,12 +1,19 @@
 import styled from "styled-components";
 
-
-
 export const Container = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100hv;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+`
+
+export const Header = styled.div`
     width: 100%;
     height: 10vh;
     background-color: black;
-    position: fixed;
     display: flex;
     flex-direction: space-around;
 `
